@@ -1,6 +1,6 @@
 ;; ndbl-mode.el --- a simple major mode for editing GIDL files.
 
-;; Version: 20150507.0000
+;; Version: 20150507.0001
 ;; Author: Getty Ritter
 ;; Url: http://github.com/aisamanra/ndbl-mode
 
@@ -27,6 +27,9 @@
   (setq mode-name "NDBL mode")
   (setq comment-start "#")
   (setq comment-end ""))
+
+;;;###autoload
+(add-to-list 'auto-mode-alist '("\\.ndbl\\'" . ndbl-mode))
 
 (provide 'ndbl-mode)
 
