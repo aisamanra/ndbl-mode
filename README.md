@@ -1,6 +1,6 @@
-A major mode for editing [NDBL][https://github.com/aisamanra/ndbl] files.
+A major mode for editing [NDBL](https://github.com/aisamanra/ndbl) files.
 This mode is also available through a package archive hosted at
-[`gelpa.gdritter.com`][http://gelpa.gdritter.com/], which means you can
+[`gelpa.gdritter.com`](http://gelpa.gdritter.com/), which means you can
 install it by adding
 
 ~~~~
